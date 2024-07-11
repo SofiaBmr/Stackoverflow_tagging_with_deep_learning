@@ -21,7 +21,7 @@ Once the application is launched, a link will be generated, please open it in yo
 If you have any issue with the module, please try first in your terminal (replacing with your own project's location) :
 
 ```bash
-export PYTHONPATH=$PYTHONPATH:/Users/boumahrat/Desktop/EPF/5A/from_poc_to_prod/poc-to-prod-capstone
+export PYTHONPATH=$PYTHONPATH:/Users/poc-to-prod-capstone
 ```
 
 Several versions of the model are available in the folder **/train/data/artefacts/models**. If you want to use a different one, please change the folder names in the code. It is also possible to train a completely new model, with new parameters by changing the train-conf.yml file and re-traning the model.
